@@ -11,7 +11,11 @@ dependencies:
   flutter:
     sdk: flutter
 
-  record_platform_interface: ^1.0.1
+  record_platform_interface: 
+    git:
+      url: git@github.com:radiosphere/record.git
+      path: "./record_platform_interface"
+
   path: ^1.8.0
 
 # dependency_overrides:

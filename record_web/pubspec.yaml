@@ -15,11 +15,10 @@ dependencies:
     sdk: flutter
 
   js: ^0.6.5
-  record_platform_interface: ^1.0.1
-
-# dependency_overrides:
-#   record_platform_interface:
-#     path: ../record_platform_interface
+  record_platform_interface: 
+    git:
+      url: git@github.com:radiosphere/record.git
+      path: "./record_platform_interface"
 
 dev_dependencies:
   flutter_lints: ^2.0.0
