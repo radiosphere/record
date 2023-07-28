@@ -21,10 +21,6 @@ dependencies:
     git:
       url: git@github.com:radiosphere/record.git
       path: "./record_web"
-  record_windows:
-    git:
-      url: git@github.com:radiosphere/record.git
-      path: "./record_windows"
   record_linux:
     git:
       url: git@github.com:radiosphere/record.git
